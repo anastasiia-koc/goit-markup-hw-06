@@ -1,0 +1,42 @@
+button :hover
+{color: #404BBF;}
+address :hover :focus
+{color:#404BBF;}
+body
+{font-family: Roboto, Raleway sans-serif;
+color: #434455;
+font-size: 16px;
+line-height: 24;
+font-weight: 400;
+background-color: #FFFFFF;}
+h1
+{color: #FFFFFF;
+    font-size: 56px;
+line-height: 60;
+background-color: #2E2F42;
+font-weight: 700;}
+h2
+{font-size: 36px;
+font-weight: 700;}
+h3
+{font-size: 20px;
+    font-weight: 500;}
+button
+{font-size: 16px;
+line-height: 24;
+font-weight: 500;
+color: #FFFFFF;
+background-color: #4D5AE5;}
+link
+{font-size: 12px;
+line-height: 16;}
+:team-member
+{background-color: 
+    #F4F4FD;}
+    button
+    {cursor: pointer;
+        font-style: normal;
+        font-weight: 400;}
+        footer
+        {background-color: 
+            #2E2F42;}
