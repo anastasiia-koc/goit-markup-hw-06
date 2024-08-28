@@ -11,7 +11,7 @@ line-height: 24;
 font-weight: 400;
 background-color: #FFFFFF;}
 
-address :hover :focus
+address :hover, :focus
 {color:#404BBF;}
 h2
 {font-size: 36px;
@@ -26,7 +26,7 @@ font-weight: 500;
 color: #FFFFFF;
 background-color: #4D5AE5;
 letter-spacing: 0.04em;}
-.order-service :hover :focus
+.order-service :hover, :focus
 {background-color: #404BBF;
     }
 
@@ -44,7 +44,7 @@ line-height: 16;}
         {color: white;
             background-color: 
             #2E2F42;}
-            .logo
+            .logo_header, .logo_footer
             {
                 font-family: "Raleway", sans-serif;
                 font-weight: 700;
@@ -60,10 +60,10 @@ line-height: 16;}
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 1.5;
-                etter-spacing: 0.02em;
               color: #2e2f42;
+              letter-spacing: 0.02em;
              }
-             .stusio :hover :focus
+             .studio :hover :focus
              {
                 color: #404bbf;
              }
@@ -72,7 +72,7 @@ line-height: 16;}
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 1.5;
-                etter-spacing: 0.02em;
+                letter-spacing: 0.02em;
               color: #2e2f42;
              }
              .portfolionav :hover :focus
@@ -84,7 +84,7 @@ line-height: 16;}
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 1.5;
-                etter-spacing: 0.02em;
+                letter-spacing: 0.02em;
               color: #2e2f42;
              }
              .contacts :hover :focus
@@ -118,28 +118,29 @@ line-height: 16;}
                     font-size: 56px;
                     font-weight: 700;
                 }
-   .strategy
+   .strategy, .punctuality, .diligence, .technologies
    {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
    }
-   .our-goal, .punctuality, .diligence
+   .describe
    {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455 ;
+    color:#434455;
+    font-size: 16px;
    }
-   .our-goal
-   {
-    line-height: 1.2;
+  .team
+{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
-   }
- .team-members
- {
-    background-color: #F4F4FD;
- }
+}
+ 
  .team-members
  {
     font-size: 36px;
@@ -148,12 +149,17 @@ line-height: 16;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    background-color: #F4F4FD;
  }
- .member_mark, .member_tom, .member_camila, .member_daniel
+ .member_p
  {
-    color: #FFFFFF;
+    background-color: #FFFFFF;}
+    .members
+    {
+color: #2e2f42;
+    }
 
- }
+ 
  .team-members
  {
     font-weight: 500;
@@ -179,7 +185,7 @@ line-height: 16;}
     text-transform: capitalize;
     color: #2e2f42;
  }
- .bank_app, .payment, .med_app, .taxi, .screen, .courses
+ .portfolio_des
  {
     font-weight: 500;
     font-size: 20px;
@@ -202,3 +208,7 @@ line-height: 16;}
                 color: #F4F4FD;
                 letter-spacing: 0.02em;
             } 
+            .contact-us
+            {
+                font-style: normal;
+            }
