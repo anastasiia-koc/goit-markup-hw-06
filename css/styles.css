@@ -29,6 +29,10 @@ letter-spacing: 0.04em;}
 .order-service :hover, :focus
 {background-color: #404BBF;
     }
+    .order-service :hover
+    {
+        background-color: #404BBF;
+    }
 
 link
 {font-size: 12px;
@@ -63,7 +67,7 @@ line-height: 16;}
               color: #2e2f42;
               letter-spacing: 0.02em;
              }
-             .studio :hover :focus
+             .studio :hover, :focus
              {
                 color: #404bbf;
              }
@@ -75,7 +79,7 @@ line-height: 16;}
                 letter-spacing: 0.02em;
               color: #2e2f42;
              }
-             .portfolionav :hover :focus
+             .portfolionav :hover, :focus
              {
                 color: #404bbf; 
              }
@@ -87,22 +91,27 @@ line-height: 16;}
                 letter-spacing: 0.02em;
               color: #2e2f42;
              }
-             .contacts :hover :focus
+             .contacts :hover, :focus
              {
                 color: #404bbf; 
              }
              .contact-us
              {
                 font-style: normal; }
-                .email
+                .email, .number
                 {
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     color:  #434455;
+                    font-size: 16px;
                 }
-                .email :hover :focus
+                .email :hover, :focus
                 {
-                    color: #404bbf;
+                    color: #404bbf; 
+                }
+                .number :hover, :focus
+                {
+                    color: #404bbf; 
                 }
                 .title
                 {
@@ -118,12 +127,27 @@ line-height: 16;}
                     font-size: 56px;
                     font-weight: 700;
                 }
-   .strategy, .punctuality, .diligence, .technologies
+   .strategy
    {
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-   }
+    color: #2e2f42;}
+    .punctuality
+    {
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;}
+        .diligence
+        {
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;}
+            .technologies
+            {
+                line-height: 1.2;
+                letter-spacing: 0.02em;
+                color: #2e2f42;}
+   
    .describe
    {
     line-height: 1.5;
