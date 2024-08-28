@@ -1,7 +1,8 @@
-button :hover
-{color: #404BBF;}
-address :hover :focus
-{color:#404BBF;}
+
+.logo_header .logo
+{
+    color: #2e2f42;
+}
 body
 {font-family: "Roboto", sans-serif;
 color: #434455;
@@ -9,24 +10,26 @@ font-size: 16px;
 line-height: 24;
 font-weight: 400;
 background-color: #FFFFFF;}
-h1
-{color: #FFFFFF;
-    font-size: 56px;
-line-height: 60;
-background-color: #2E2F42;
-font-weight: 700;}
+
+address :hover :focus
+{color:#404BBF;}
 h2
 {font-size: 36px;
 font-weight: 700;}
 h3
 {font-size: 20px;
     font-weight: 500;}
-button
+.order-service
 {font-size: 16px;
-line-height: 24;
+    line-height: 1.5;
 font-weight: 500;
 color: #FFFFFF;
-background-color: #4D5AE5;}
+background-color: #4D5AE5;
+letter-spacing: 0.04em;}
+.order-service :hover :focus
+{background-color: #404BBF;
+    }
+
 link
 {font-size: 12px;
 line-height: 16;}
@@ -37,7 +40,7 @@ line-height: 16;}
     {cursor: pointer;
         font-style: normal;
         font-weight: 400;}
-        footer
+        .footer
         {color: white;
             background-color: 
             #2E2F42;}
@@ -51,5 +54,151 @@ line-height: 16;}
                 text-transform: uppercase;
                 color: #4d5ae5;
             }
-            .logo-studio
-            {color: #2e2f42;}
+            
+            .studio
+            {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                etter-spacing: 0.02em;
+              color: #2e2f42;
+             }
+             .stusio :hover :focus
+             {
+                color: #404bbf;
+             }
+             .portfolionav
+             {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                etter-spacing: 0.02em;
+              color: #2e2f42;
+             }
+             .portfolionav :hover :focus
+             {
+                color: #404bbf; 
+             }
+             .contacts
+             {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                etter-spacing: 0.02em;
+              color: #2e2f42;
+             }
+             .contacts :hover :focus
+             {
+                color: #404bbf; 
+             }
+             .contact-us
+             {
+                font-style: normal; }
+                .email
+                {
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color:  #434455;
+                }
+                .email :hover :focus
+                {
+                    color: #404bbf;
+                }
+                .title
+                {
+                    background-color: #2e2f42;
+
+                }
+                .help
+                {
+                    line-height: 1.07;
+                    text-align: center;
+                    letter-spacing: 0.02em;
+                    color: #ffffff;
+                    font-size: 56px;
+                    font-weight: 700;
+                }
+   .strategy
+   {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+   }
+   .our-goal, .punctuality, .diligence
+   {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455 ;
+   }
+   .our-goal
+   {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+   }
+ .team-members
+ {
+    background-color: #F4F4FD;
+ }
+ .team-members
+ {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+ }
+ .member_mark, .member_tom, .member_camila, .member_daniel
+ {
+    color: #FFFFFF;
+
+ }
+ .team-members
+ {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+ }
+ .members-role
+ {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+ .our_portfolio
+ {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+ }
+ .bank_app, .payment, .med_app, .taxi, .screen, .courses
+ {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: #2e2f42;
+ }
+ .instruments
+ {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+ .logo_footer .logo-studio
+            {color: #f4f4fd;}
+            .end 
+            {
+                line-height: 1.5;
+                color: #F4F4FD;
+                letter-spacing: 0.02em;
+            } 
