@@ -2,6 +2,11 @@
 .logo_header .logo
 {
     color: #2e2f42;
+
+}
+.logo-studio
+{
+    color: #f4f4fd;
 }
 body
 {font-family: "Roboto", sans-serif;
@@ -26,7 +31,7 @@ font-weight: 500;
 color: #FFFFFF;
 background-color: #4D5AE5;
 letter-spacing: 0.04em;}
-.order-service :hover, :focus
+.order-service :focus
 {background-color: #404BBF;
     }
     .order-service :hover
@@ -127,27 +132,12 @@ line-height: 16;}
                     font-size: 56px;
                     font-weight: 700;
                 }
-   .strategy
+   .features
    {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;}
-    .punctuality
-    {
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;}
-        .diligence
-        {
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: #2e2f42;}
-            .technologies
-            {
-                line-height: 1.2;
-                letter-spacing: 0.02em;
-                color: #2e2f42;}
-   
+    
    .describe
    {
     line-height: 1.5;
@@ -211,10 +201,20 @@ color: #2e2f42;
  }
  .portfolio_des
  {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+ }
+ .portfolio_d
+ {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: #2e2f42;
  }
  .instruments
