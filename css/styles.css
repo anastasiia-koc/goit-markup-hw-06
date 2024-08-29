@@ -20,7 +20,7 @@ line-height: 24;
 font-weight: 400;
 background-color: #FFFFFF;}
 
-address :hover, :focus
+address:hover, .address:focus
 {color:#404BBF;}
 h2
 {font-size: 36px;
@@ -28,7 +28,7 @@ font-weight: 700;}
 h3
 {font-size: 20px;
     font-weight: 500;}
-    
+
 .order-service
 {font-size: 16px;
     line-height: 1.5;
@@ -37,10 +37,10 @@ color: #FFFFFF;
 background-color: #4D5AE5;
 letter-spacing: 0.04em;}
 
-.order-service :focus
+.order-service:focus
 {background-color: #404BBF;
     }
-    .order-service :hover
+    .order-service:hover
     {
         background-color: #404BBF;
     }
@@ -78,11 +78,11 @@ line-height: 16;}
               color: #2e2f42;
               letter-spacing: 0.02em;
              }
-             .studio :focus
+             .studio:focus
              {
                 color: #404bbf;
              }
-             .studio :hover
+             .studio:hover
              {
                 color: #404bbf;  
              }
@@ -94,11 +94,11 @@ line-height: 16;}
                 letter-spacing: 0.02em;
               color: #2e2f42;
              }
-             .portfolionav :focus
+             .portfolionav:focus
              {
                 color: #404bbf; 
              }
-             .portfolionav :hover
+             .portfolionav:hover
              {
                 color: #404bbf;
              }
@@ -110,11 +110,11 @@ line-height: 16;}
                 letter-spacing: 0.02em;
               color: #2e2f42;
              }
-             .contacts :focus
+             .contacts:focus
              {
                 color: #404bbf; 
              }
-             .contacts :hover
+             .contacts:hover
              {
                 color: #404bbf;
              }
@@ -135,19 +135,19 @@ line-height: 16;}
                     color:  #434455;
                     font-size: 16px;   
                 }
-                .email :focus
+                .email:focus
                 {
                     color: #404bbf; 
                 }
-                .email :hover
+                .email:hover
                 
                   {color: #404bbf;} 
                 
-                .number :focus
+                .number:focus
                 
                     {color: #404bbf;} 
                 
-                .number :hover
+                .number:hover
                 {color: #404bbf;}
                 
                 .title
@@ -231,16 +231,7 @@ color: #2e2f42;
     text-transform: capitalize;
     color: #2e2f42;
  }
- .portfolio_des
- {
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: center;
-    text-transform: capitalize;
- }
+ 
  .portfolio_d
  {
     font-weight: 500;
@@ -268,12 +259,7 @@ color: #2e2f42;
             {
                 font-style: normal;
             }
-            .order-service :hover
-           
-                { background-color: #404BBF;}
-               
-                .order-service :focus
-                { background-color: #404BBF;}
+            
             
                 .portfolio
                 {font-size: 36px;
