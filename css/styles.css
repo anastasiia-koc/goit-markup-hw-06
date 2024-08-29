@@ -70,7 +70,7 @@ line-height: 16;}
                 color: #4d5ae5;
             }
             
-            .studio
+            .navigation
             {
                 font-weight: 500;
                 font-size: 16px;
@@ -78,77 +78,33 @@ line-height: 16;}
               color: #2e2f42;
               letter-spacing: 0.02em;
              }
-             .studio:focus
+             .navigation:focus
              {
                 color: #404bbf;
              }
-             .studio:hover
+             .navigation:hover
              {
                 color: #404bbf;  
              }
-             .portfolionav
-             {
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-              color: #2e2f42;
-             }
-             .portfolionav:focus
-             {
-                color: #404bbf; 
-             }
-             .portfolionav:hover
-             {
-                color: #404bbf;
-             }
-             .contacts
-             {
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-              color: #2e2f42;
-             }
-             .contacts:focus
-             {
-                color: #404bbf; 
-             }
-             .contacts:hover
-             {
-                color: #404bbf;
-             }
+             
              .contact-us
              {
                 font-style: normal; }
-                .email
+                .contact
                 {
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     color:  #434455;
                     font-size: 16px;
                 }
-                .number
-                {
-                    line-height: 1.5;
-                    letter-spacing: 0.02em;
-                    color:  #434455;
-                    font-size: 16px;   
-                }
-                .email:focus
+                .contact:focus
                 {
                     color: #404bbf; 
                 }
-                .email:hover
+                .contact:hover
                 
                   {color: #404bbf;} 
                 
-                .number:focus
-                
-                    {color: #404bbf;} 
-                
-                .number:hover
-                {color: #404bbf;}
                 
                 .title
                 {
