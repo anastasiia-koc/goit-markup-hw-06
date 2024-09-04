@@ -4,8 +4,32 @@
 
 h1, h2, h3, p
 {
-    margin: 0;
-}
+    margin: 0;}
+
+    h2
+{font-size: 36px;
+font-weight: 700;}
+
+     h3
+{font-size: 20px;
+ font-weight: 500;}
+
+
+    body
+{font-family: "Roboto", sans-serif;
+color: #434455;
+font-size: 16px;
+font-weight: 400;
+background-color: #FFFFFF;}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 24px;}
 
 .visually-hidden
 {
@@ -20,15 +44,16 @@ h1, h2, h3, p
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+img{
+    display: block;
+    max-width: 100%;}
+
 .contact-us
             
 {font-style: normal;} 
 
 a
 {text-decoration: none;}
-
-ul
-{list-style: none;}
 
 .container
      {
@@ -43,13 +68,7 @@ ul
         border-bottom: 1px solid #E7E9FC;
      }
    
-    ul {
-        list-style: none;
-        display: flex;
-        margin-bottom: 0;
-        padding-left: 0;
-        margin-top: 24px;
-    }
+   
     .nav-header
     { display: flex;
         align-items: center;}
@@ -65,11 +84,6 @@ ul
         align-items: center;}
     
 
-
-img{
-    display: block;
-    max-width: 100%;
-}
 .logo_header .logo
 {
     color: #2e2f42;
@@ -79,28 +93,16 @@ margin-top: 24px;
 }
 .logo-studio_f
 {
-    color: #f4f4fd;
-}
+    color: #f4f4fd;}
+
 .logo-studio_h
 {
     color: #2e2f42;
 }
-body
-{font-family: "Roboto", sans-serif;
-color: #434455;
-font-size: 16px;
-font-weight: 400;
-background-color: #FFFFFF;}
 
 
 address:hover, .address:focus
 {color:#404BBF;}
-h2
-{font-size: 36px;
-font-weight: 700;}
-h3
-{font-size: 20px;
-    font-weight: 500;}
 
 .order-service
 {font-size: 16px;
@@ -129,6 +131,7 @@ line-height: 16;}
 :team-member
 {background-color: 
     #F4F4FD;}
+
     button
     {cursor: pointer;
         font-style: normal;
@@ -150,8 +153,8 @@ line-height: 16;}
             }
           .nav-list {
             display: flex;
-            gap: 40px;
-          }
+            gap: 40px;}
+          
             .navigation
             {
                 font-weight: 500;
@@ -241,16 +244,16 @@ line-height: 16;}
    {
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
+    color: #2e2f42;
+    margin-bottom: 8px;}
     
    .describe
    {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-    font-size: 16px;
-    margin-bottom: 8px;
-   }
+    font-size: 16px;}
+   
    .team-wrap {
     padding: 32px 0;
    text-align: center;
