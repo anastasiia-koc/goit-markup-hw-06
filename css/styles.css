@@ -249,6 +249,7 @@ line-height: 16;}
     letter-spacing: 0.02em;
     color:#434455;
     font-size: 16px;
+    margin-bottom: 8px;
    }
    .team-wrap {
     padding: 32px 0;
@@ -307,19 +308,18 @@ line-height: 16;}
     align-items: center;
     display: flex;
     row-gap: 48px;
+    column-gap: 24px; 
  }
  .portfolio-wrap {
     border: 1px solid #E7E9FC;
     border-top: none;
-    padding: 32px 0;
-    padding-left: 16px;
- }
+    padding: 32px 16px;}
+ 
  .port-list
- {
-    flex-basis: calc((100%-48px)/3);
+ {  width: calc((100% - 48px) / 3);
     border-bottom: 
-    1px solid #E7E9FC ;
- }
+    1px solid #E7E9FC ;}
+ 
  .our_portfolio
  {
     font-size: 36px;
@@ -327,8 +327,8 @@ line-height: 16;}
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
- }
+    color: #2e2f42; }
+
  
  .portfolio_des
  {
@@ -338,24 +338,24 @@ line-height: 16;}
     color: #2e2f42;
     font-size: 36px;
     text-align: center;
-    margin-bottom: 72px;
- }
+    margin-bottom: 72px;}
+ 
  .portfolio_d
- {
-    font-weight: 500;;
+ 
+   { font-weight: 500;;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-size: 20px;
+    margin-bottom: 8px;}
     
- }
+ 
 
   .portfolio 
-                {text-transform: capitalize;
-                color: #2e2f42;
-        align-items: center;
-    padding-top: 120px; 
-    padding-bottom: 120px; }
+     {text-transform: capitalize;
+     color: #2e2f42;
+     align-items: center;
+     padding: 120px 0 120px 0; }
                 
 
  .instruments
@@ -363,8 +363,8 @@ line-height: 16;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
- }
+    color: #434455;}
+ 
  .logo_footer .logo-studio
             {color: #f4f4fd;}
             
@@ -373,8 +373,7 @@ line-height: 16;}
                 color: #F4F4FD;
                 letter-spacing: 0.02em;
                 max-width: 264px;
-            font-style: normal;
-        margin-top: 18px;} 
+            font-style: normal; } 
             .footer
         {color: white;
             background-color:  #2E2F42;
@@ -389,5 +388,7 @@ line-height: 16;}
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5; }
+        color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px; }
    
