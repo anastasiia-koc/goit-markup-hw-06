@@ -38,7 +38,7 @@ ul
         width: 1440px;
 
      }
-     header
+     .header
      {
         border-bottom: 1px solid #E7E9FC;
      }
@@ -50,7 +50,7 @@ ul
         padding-left: 0;
         margin-top: 24px;
     }
-    nav
+    .nav-header
     { display: flex;
         align-items: center;}
         .our-features 
@@ -132,7 +132,9 @@ line-height: 16;}
     button
     {cursor: pointer;
         font-style: normal;
-        font-weight: 400;}
+        font-weight: 400;
+        border: none;
+        border-radius: 4px;}
         
             .logo_header
             {
@@ -217,7 +219,8 @@ line-height: 16;}
                    margin: 0 auto 48px;
                 }
                 .features-list
-                 { flex-basis: calc((100% - 3 * 24px) / 4); }
+                 { flex-basis: calc((100% - 3 * 24px) / 4); 
+                    margin-bottom: 8px;}
 
                   
                    
@@ -232,7 +235,7 @@ line-height: 16;}
                     {text-align: center;}
 
                 .our-features         
-               { margin: 120px 0;}
+               { padding: 120px 0;}
                 
    .features
    {
@@ -262,6 +265,7 @@ line-height: 16;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px; 
 }
  
  .team-members
@@ -271,20 +275,21 @@ line-height: 16;}
  .member_p
  {
     background-color: #FFFFFF;
-display: inline;}
+    display: inline;
+    border-radius: 0px 0px 4px 4px
+}
     .members
     {
-color: #2e2f42;
+    color: #2e2f42;
+    margin-bottom: 8px;
     }
 
  
  .team-members
  {
-    color: #2e2f42;
-   
-padding: 120px 0;
-margin-top: 120px;
- }
+    color: #2e2f42;  
+    padding: 120px 0;}
+ 
  .member-list
  {
     display: flex;
@@ -299,9 +304,9 @@ margin-top: 120px;
  }
  .port {
     flex-wrap: wrap;
-    gap: 24px;
     align-items: center;
     display: flex;
+    row-gap: 48px;
  }
  .portfolio-wrap {
     border: 1px solid #E7E9FC;
@@ -333,6 +338,7 @@ margin-top: 120px;
     color: #2e2f42;
     font-size: 36px;
     text-align: center;
+    margin-bottom: 72px;
  }
  .portfolio_d
  {
@@ -341,14 +347,15 @@ margin-top: 120px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-size: 20px;
+    
  }
 
   .portfolio 
                 {text-transform: capitalize;
                 color: #2e2f42;
-            padding: 120px 156px;
         align-items: center;
-    margin-top: 120px;}
+    padding-top: 120px; 
+    padding-bottom: 120px; }
                 
 
  .instruments
@@ -382,6 +389,5 @@ margin-top: 120px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
-       margin-bottom: 18px;
-    }
+        color: #4d5ae5; }
+   
