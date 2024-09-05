@@ -5,16 +5,7 @@
 h1, h2, h3, p
 {
     margin: 0;}
-
-    h2
-{font-size: 36px;
-font-weight: 700;}
-
-     h3
-{font-size: 20px;
- font-weight: 500;}
-
-
+    
     body
 {font-family: "Roboto", sans-serif;
 color: #434455;
@@ -26,10 +17,10 @@ background-color: #FFFFFF;}
 
 ul {
     list-style: none;
-    display: flex;
     margin-bottom: 0;
     padding-left: 0;
-    margin-top: 24px;}
+    margin-top: 0;
+    }
 
 .visually-hidden
 {
@@ -60,7 +51,6 @@ a
         max-width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
-        width: 1440px;
 
      }
      .header
@@ -149,7 +139,6 @@ line-height: 16;}
                 text-transform: uppercase;
                 color: #4d5ae5;
                 margin-right: 76px;
-                margin-top: 24px;
             }
           .nav-list {
             display: flex;
@@ -222,14 +211,12 @@ line-height: 16;}
                    margin: 0 auto 48px;
                 }
                 .features-list
-                 { flex-basis: calc((100% - 3 * 24px) / 4); 
-                    margin-bottom: 8px;}
+                 { flex-basis: calc((100% - 3 * 24px) / 4); }
 
                   
                    
                 .list {
                 
-                    max-width: 1128px;
                     gap: 24px;
                     align-items: center;
                     display: flex;
@@ -241,7 +228,8 @@ line-height: 16;}
                { padding: 120px 0;}
                 
    .features
-   {
+   {font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -262,7 +250,7 @@ line-height: 16;}
                0px 1px 6px 0px #2E2F4214;
    }
   .team
-{
+{ font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -277,13 +265,13 @@ line-height: 16;}
     background-color: #F4F4FD;
  }
  .member_p
- {
+ { width: calc((100%-72px)/4);
     background-color: #FFFFFF;
-    display: inline;
     border-radius: 0px 0px 4px 4px
 }
     .members
-    {
+    {font-size: 20px;
+     font-weight: 500;
     color: #2e2f42;
     margin-bottom: 8px;
     }
@@ -319,9 +307,8 @@ line-height: 16;}
     padding: 32px 16px;}
  
  .port-list
- {  width: calc((100% - 48px) / 3);
-    border-bottom: 
-    1px solid #E7E9FC ;}
+ {  width: calc((100% - 48px) / 3); }
+  
  
  .our_portfolio
  {
@@ -345,7 +332,7 @@ line-height: 16;}
  
  .portfolio_d
  
-   { font-weight: 500;;
+   {font-weight: 500;;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
