@@ -419,7 +419,7 @@ content: "";}
     top: 0;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0,002em;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
     padding: 40px 32px;
     background-color: #4d5ae5;
@@ -509,8 +509,9 @@ content: "";}
             display: flex;
         align-items: baseline;
         }
-        .footer-content  .foot-content {
-            margin-right:120px;}
+     .foot-content {
+        margin-right: 120px;
+     }
         
         .social-media {        
 font-size: 16px;
