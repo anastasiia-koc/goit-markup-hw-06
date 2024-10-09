@@ -238,7 +238,7 @@ margin: 0 auto;
             to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/img_hw/hero-img-phone@2x.jpg);
+        url(../images/img_phone/hero-img-phone@2x.jpg);
     }
 }
 .help
@@ -293,7 +293,7 @@ background-color: #404BBF;
         to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-    url(../images/img_tablet/hero-img-tablet@2x.png);
+    url(../images/img_tablet/hero-img-tablet@2x.jpg);
   
     }
 }
