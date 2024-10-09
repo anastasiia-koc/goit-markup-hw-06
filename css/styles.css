@@ -220,10 +220,10 @@ height: 432px;
 background-color: #2e2f42;
 align-content: center;
 background-image: linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-    url(../images/img_tablet/hero-img-tablet.jpg);
+    to bottom,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+url(../images/img_phone/hero-img-phone.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -300,7 +300,6 @@ background-color: #404BBF;
     .help
     {
     max-width: 496px;
-    height: 120px;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
@@ -689,9 +688,8 @@ text-align: left;
 display: flex;
 flex-direction: column;
 gap: 16px;
-align-items: flex-start;
+align-items: center;
 margin-bottom: 72px;
-margin-left: 24px;
 }
 .social-media
 {
@@ -794,6 +792,11 @@ margin-left: 16px;
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
+    }
+    .footer-links
+    {
+    margin-left: 24px;
+    align-items: flex-start;
     }
     .subscription
     {
@@ -996,9 +999,7 @@ pointer-events: auto;}
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     padding: 72px 24px 24px 24px; 
 }
-.subscription {
-margin-left: 80px;
-}
+
 
 
 .close 
